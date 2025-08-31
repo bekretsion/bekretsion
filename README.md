@@ -91,10 +91,10 @@
   <a href="https://itutu.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-00b894?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+  <a href="https://www.linkedin.com/in/bekretsion-seyoum/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="mailto:your@email.com">
+  <a href="mailto:bekretsionseyoum4@gmail.com.com">
     <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
