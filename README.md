@@ -20,7 +20,7 @@
 ## **👨‍💻 About Me**
 
 - 🎯 Passionate **Full-Stack Developer** who loves solving real-world problems  
-- 🌱 Currently learning **Advanced SaaS Architecture** & **Web Performance Optimization**  
+- 🌱 Currently working on Advanced SaaS Architecture App with Web Performance Optimization 
 - 🚀 Building **Itutu** — a modern **Next.js e-commerce platform**  
 - 📌 Open to **remote opportunities**, **internships**, and **freelance projects**  
 - 🧠 Focused on writing **clean, scalable, and efficient code**  
