@@ -18,15 +18,17 @@
 
 Backend engineer focused on Node.js, TypeScript, and real-time distributed systems. I build APIs and WebSocket backends that handle concurrent users, complex auth flows, and multi-tenant data isolation.
 
-Currently building a **multi-tenant collaborative notes API** using Hocuspocus, Yjs, Redis, and PostgreSQL — the core challenge is real-time document sync at scale with strict tenant isolation across WebSocket connections.
+Currently building **Collab API** — a multi-tenant collaborative document sync backend using Yjs CRDT, Redis, and PostgreSQL. The core challenge is real-time document sync at scale with strict tenant isolation across WebSocket connections.
 
 Async-first communicator. Self-managed. Comfortable across time zones.
 
 ---
 
-## Current Build — Multi-Tenant Collaborative API
+## Current Build — Collab API
 
-> A production-grade WebSocket backend built on [Hocuspocus](https://github.com/ueberdosis/hocuspocus) with full multi-tenancy, JWT auth, and horizontal scaling via Redis.
+> A production-grade WebSocket backend for real-time collaborative editing — with full multi-tenancy, JWT auth, and horizontal scaling via Redis.
+
+**Live:** [collab-api-jayn.onrender.com](https://collab-api-jayn.onrender.com) · **Playground:** [collab-api-frontend.vercel.app](https://collab-api-frontend.vercel.app) · **[Source](https://github.com/bekretsion/collab_api)**
 
 **What makes it senior-level:**
 - `onAuthenticate` hook returns `{ userId, tenantId }` context — enforces tenant isolation at every layer
@@ -34,31 +36,29 @@ Async-first communicator. Self-managed. Comfortable across time zones.
 - Redis pub/sub adapter for horizontal scaling across multiple Node.js instances
 - JWT access tokens (RS256) with refresh token rotation on every use
 - Structured logging with Pino and correlation IDs on every connection
-- Deployed with Docker + Railway + Upstash Redis + Neon PostgreSQL
+- CRDT-based conflict resolution — no last-write-wins, no data loss on simultaneous edits
 
-`Node.js` `TypeScript` `Hocuspocus` `Yjs` `WebSockets` `Redis` `PostgreSQL` `Prisma` `JWT` `Docker`
-
-🔗 *Live URL and source — coming soon*
+`Node.js` `TypeScript` `Yjs` `WebSockets` `Redis` `PostgreSQL` `Prisma` `JWT` `Docker`
 
 ---
 
 ## Other Projects
 
-### Itutu — E-Commerce Platform
-A full-stack e-commerce app built with Next.js 15, Prisma, Neon PostgreSQL, and TailwindCSS.
+### Hello — AI Receptionist Platform
+AI voice receptionist that answers calls in 95+ languages, books appointments, and runs outbound sales. Built for the hospitality industry — reached **National Finals** at [Hospitality Hackathon 2026](https://www.hospitalityhackathon.et/) (ALX Ethiopia × Kuriftu Resorts).
 
-🔗 [Live Demo](https://itutu.vercel.app/) · [Source](https://github.com/bekretsion/itutu)
+🔗 [Live Demo](https://hello-frontend-three.vercel.app) · [Backend](https://github.com/bekretsion/hello_backend) · [Frontend](https://github.com/bekretsion/hello_frontend) · [Press](https://thevoiceofafrica.com/2026/05/04/hospitality-hackathon-2026-demo-day-at-kuriftu-resorts-african-village-sets-global-innovation-record/)
 
-`Next.js 15` `Prisma` `PostgreSQL` `TailwindCSS` `TypeScript`
+`Node.js` `Express` `MySQL` `ElevenLabs` `Stripe` `Dropbox Sign` `Google Calendar` `OAuth 2.0`
 
 ---
 
 ## Stack
 
 **Core:** Node.js · TypeScript · PostgreSQL · Redis · WebSockets  
-**Frameworks:** Express · Prisma · Hocuspocus  
+**Frameworks:** Express · Prisma  
 **Auth:** JWT (RS256) · Refresh token rotation · RBAC  
-**Infra:** Docker · GitHub Actions · Railway · Neon · Upstash  
+**Infra:** Docker · GitHub Actions · Render · Neon · Upstash  
 **Observability:** Pino · OpenTelemetry · Correlation IDs  
 **Frontend (supporting):** React · Next.js · TailwindCSS
 
