@@ -74,6 +74,6 @@ AI voice receptionist that answers calls in 95+ languages, books appointments, a
 ---
 
 <p align="center">
-  <i>Currently open to senior backend and Node.js remote roles.<br>
+  <i>Currently open to backend and Node.js remote roles.<br>
   Reach me at bekretsionseyoum4@gmail.com</i>
 </p>
