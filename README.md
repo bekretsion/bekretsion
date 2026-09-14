@@ -16,7 +16,9 @@ I build backends for real-time, multi-tenant products: WebSocket servers, auth, 
 
 More about me and my work: **[bekretsion.com](https://bekretsion.com)**
 
-## Now building: Collab API
+## Projects
+
+### Collab API
 
 A multi-tenant backend for real-time collaborative editing. It uses Yjs CRDTs for sync, PostgreSQL for storage and Redis to scale across instances.
 
@@ -28,7 +30,7 @@ A multi-tenant backend for real-time collaborative editing. It uses Yjs CRDTs fo
 - **Consistency:** CRDT merges, so edits made at the same time never overwrite each other
 - **Observability:** structured Pino logs with a correlation ID per connection
 
-## Hello: AI receptionist
+### Hello: AI receptionist
 
 A voice agent for hotels that answers calls in 95+ languages, books appointments and makes outbound sales calls. National finalist at [Hospitality Hackathon 2026](https://www.hospitalityhackathon.et/) (ALX Ethiopia × Kuriftu Resorts).
 
