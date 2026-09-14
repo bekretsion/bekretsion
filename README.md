@@ -3,13 +3,14 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=00F7FF&center=true&vCenter=true&width=750&lines=Bekretsion+Seyoum;Senior+Backend+Engineer;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Redis;Building+real-time+distributed+systems;Open+to+remote+roles" alt="Typing SVG" />
 </p>
 
-<h3 align="center"> bekretsion.com Backend Engineer — Node.js · TypeScript · PostgreSQL · Redis · WebSockets</h3>
+<h3 align="center"> Backend Engineer — Node.js · TypeScript · PostgreSQL · Redis · WebSockets</h3>
 
 <p align="center">
   <a href="https://github.com/bekretsion"><img src="https://img.shields.io/badge/GitHub-bekretsion-black?style=flat-square&logo=github" /></a>
   <a href="https://www.linkedin.com/in/bekretsion-seyoum/"><img src="https://img.shields.io/badge/LinkedIn-Bekretsion_Seyoum-blue?style=flat-square&logo=linkedin" /></a>
   <a href="mailto:bekretsionseyoum4@gmail.com"><img src="https://img.shields.io/badge/Email-bekretsionseyoum4@gmail.com-red?style=flat-square&logo=gmail" /></a>
   <img src="https://img.shields.io/badge/Open_to-Remote_Roles-brightgreen?style=flat-square" />
+  <a href="bekretsion.com"/>
 </p>
 
 ---
